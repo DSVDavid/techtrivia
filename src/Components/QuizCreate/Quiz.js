@@ -18,7 +18,7 @@ class Quiz extends React.Component{
             this.setState({score:this.state.score+1})
 
         }
-        if(this.state.index-1<this.state.index.length){
+        if(this.state.index<this.state.index.length){
             this.setState({index:this.state.index+1})
         }else{
             console.log(this.state.score);
